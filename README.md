@@ -81,6 +81,13 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
-1. Describe component state.
-1. Describe props.
-1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+    React is a javascript library made by facebook, it is used to build user interfaces. React is a huge improvement from vanila javascript with features like components which allows us to work on smaller peaces of code to improve work load and programmer readability of code. 
+
+2. Describe component state. 
+  Componnets stare is an object used to dictate when a componnets renders and how it nehaves
+
+3. Describe props.
+   A built in react feature that is used to pass data from one components to another
+
+4. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+  Side effects is anything that affects something outside the scope of the function being executed.You sync effects in a React component to change of certain state or props by putting that state name inside the useEffect function. 
